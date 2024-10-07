@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    height: 615px;
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    width: 685px;
+    margin: 0 auto;
+    color: white;
+} 
+
+#hero .hero-content .title{
+    font-size: x-large;
+    text-align: center;
+}
